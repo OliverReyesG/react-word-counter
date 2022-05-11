@@ -1,6 +1,22 @@
+# Description
+This is a web application that allows users to count:
+
+- Characters
+- Words
+- Sentences
+- Paragraphs
+
+Through a simple, intuitive and responsive user interface.
+
 # Preview this app by clicking on the following link:
 
 [Word Counter - Web App](https://oliverreyesg.github.io/react-word-counter/ 'Click to open this web application')
+
+# Install dependencies:
+
+```bash
+npm install
+```
 
 # Start development server:
 
@@ -12,6 +28,12 @@ npm run dev
 
 ```bash
 npm run build
+```
+
+# Run end to end tests:
+
+```bash
+npm run cypress:open
 ```
 
 # Deploy to github pages:
