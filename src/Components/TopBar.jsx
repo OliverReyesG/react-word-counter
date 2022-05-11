@@ -15,7 +15,7 @@ const TopBar = ({ prefersDarkMode, handleThemeChange }) => {
           maxWidth="lg"
         >
           <Typography variant="h5">Word Counter</Typography>
-          <IconButton onClick={handleThemeChange}>
+          <IconButton onClick={handleThemeChange} data-testid="theme-toggle">
             {prefersDarkMode ? (
               <DarkMode />
             ) : (

@@ -65,13 +65,13 @@ function App() {
                 justifyContent: 'space-between',
               }}
             >
-              <Typography variant="h5">Characters: {charCount}</Typography>
+              <Typography variant="h5" data-testid="char-count" >Characters: {charCount}</Typography>
               <Divider orientation="vertical" variant="middle" flexItem />
-              <Typography variant="h5">Words: {wordCount}</Typography>
+              <Typography variant="h5" data-testid="word-count" >Words: {wordCount}</Typography>
               <Divider orientation="vertical" variant="middle" flexItem />
-              <Typography variant="h5">Sentences: {sentenceCount}</Typography>
+              <Typography variant="h5" data-testid="sentence-count" >Sentences: {sentenceCount}</Typography>
               <Divider orientation="vertical" variant="middle" flexItem />
-              <Typography variant="h5">Paragraphs: {paragraphCount}</Typography>
+              <Typography variant="h5" data-testid="paragraph-count" >Paragraphs: {paragraphCount}</Typography>
             </Box>
             <FormControl fullWidth>
               <TextField
